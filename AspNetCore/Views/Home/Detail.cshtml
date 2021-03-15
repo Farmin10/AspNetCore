@@ -1,0 +1,26 @@
+﻿@model Product
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <img src="#" class="w-100 img-thumbnail img-fluid" alt="@Model.Name" />
+        </div>
+        <div class="col-md-9">
+            @ViewBag.Session
+            <div class="card">
+                <div class="card-header">
+                    @Model.Name
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">@Model.Name</h5>
+                    <strong>Category:</strong><getCategoryName product-id="@Model.Id"></getCategoryName>
+                    <p class="card-text">@Model.Price</p>
+                    <a href="#" class="btn btn-primary float-right ml-1">Add Cart</a>
+                    <a asp-controller="Home" asp-action="Index" class="btn btn-danger float-right">Back</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
