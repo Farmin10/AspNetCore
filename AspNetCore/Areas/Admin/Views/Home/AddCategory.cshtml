@@ -1,0 +1,19 @@
+﻿@model List<AddCategoryModel>
+
+
+<form asp-action="AddCategory" method="post">
+    @for (int i = 0; i < Model.Count; i++)
+    {
+        <div class="form-check">
+            <input type="hidden" asp-for="@Model[i].CategoryId" />
+            <input type="hidden" asp-for="@Model[i].CategoryName" />
+
+            <input type="checkbox" asp-for="@Model[i].IsAllow" class="form-check-input" />
+            <label class="form-check-label" @Model[i].CategoryName></label>
+        </div>
+    }
+<div class="form-group">
+    <button type="submit" class="btn btn-info">Save</button>
+</div>
+
+</form>

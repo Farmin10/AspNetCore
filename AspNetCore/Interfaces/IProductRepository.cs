@@ -9,5 +9,8 @@ namespace AspNetCore.Interfaces
     public interface IProductRepository:IGenericRepository<Product>
     {
         List<Category> GetCategories(int productId);
+        void AddCategory(ProductCategory productCategory);
+        void DeleteCategory(ProductCategory productCategory);
+        List<Product> GetByCategoryId(int categoryId);
     }
 }

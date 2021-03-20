@@ -1,0 +1,25 @@
+﻿@model CategoryUpdateModel
+
+
+
+<form asp-action="Update" asp-controller="Category" asp-area="Admin" method="post" enctype="multipart/form-data" class="w-75 mx-auto p-3">
+
+    <input type="hidden" asp-for="@Model.Id" />
+
+    <div class="form-group">
+        <label>Product Name:</label>
+        <span asp-validation-for="@Model.Name" class="text-danger"></span>
+        <input asp-for="@Model.Name" class="form-control" />
+    </div>
+  
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Save</button>
+    </div>
+</form>
+
+@section JavaScripts{
+    <script src="~/jqueryValid/jquery.validate.min.js"></script>
+    <script src="~/jqueryUnob/jquery.validate.unobtrusive.min.js"></script>
+}
+
+

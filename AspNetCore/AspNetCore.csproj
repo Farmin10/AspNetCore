@@ -5,8 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\Admin\Views\Shared\" />
-    <Folder Include="wwwroot\" />
+    <Folder Include="wwwroot\Img\" />
   </ItemGroup>
 
   <ItemGroup>

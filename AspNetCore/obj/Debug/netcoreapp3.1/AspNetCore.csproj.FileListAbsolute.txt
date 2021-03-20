@@ -155,3 +155,12 @@ C:\Users\farmi\source\repos\AspNetCore\AspNetCore\obj\Debug\netcoreapp3.1\AspNet
 C:\Users\farmi\source\repos\AspNetCore\AspNetCore\obj\Debug\netcoreapp3.1\AspNetCore.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\farmi\source\repos\AspNetCore\AspNetCore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Home\Index.cshtml.g.cs
 C:\Users\farmi\source\repos\AspNetCore\AspNetCore\obj\Debug\netcoreapp3.1\Razor\Views\Home\Login.cshtml.g.cs
+C:\Users\farmi\source\repos\AspNetCore\AspNetCore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\farmi\source\repos\AspNetCore\AspNetCore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+C:\Users\farmi\source\repos\AspNetCore\AspNetCore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
+C:\Users\farmi\source\repos\AspNetCore\AspNetCore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Home\Create.cshtml.g.cs
+C:\Users\farmi\source\repos\AspNetCore\AspNetCore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Home\Update.cshtml.g.cs
+C:\Users\farmi\source\repos\AspNetCore\AspNetCore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Category\Index.cshtml.g.cs
+C:\Users\farmi\source\repos\AspNetCore\AspNetCore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Category\Create.cshtml.g.cs
+C:\Users\farmi\source\repos\AspNetCore\AspNetCore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Category\Update.cshtml.g.cs
+C:\Users\farmi\source\repos\AspNetCore\AspNetCore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Home\AddCategory.cshtml.g.cs
