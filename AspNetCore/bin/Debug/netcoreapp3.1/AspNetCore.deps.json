@@ -30,6 +30,8 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.10",
           "Microsoft.EntityFrameworkCore.Tools": "3.1.10",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.1.5",
+          "NLog": "4.7.8",
+          "NLog.Config": "4.7.8",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions.Reference": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies.Reference": "3.1.0.0",
@@ -1353,6 +1355,24 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "NLog/4.7.8": {
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.7.8.12686"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/NLog.dll": {}
+        }
+      },
+      "NLog.Config/4.7.8": {
+        "dependencies": {
+          "NLog": "4.7.8",
+          "NLog.Schema": "4.7.8"
+        }
+      },
+      "NLog.Schema/4.7.8": {},
       "NuGet.Frameworks/4.7.0": {
         "dependencies": {
           "NETStandard.Library": "1.6.1"
@@ -4527,6 +4547,27 @@
       "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
       "path": "newtonsoft.json/11.0.2",
       "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
+    },
+    "NLog/4.7.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-G/TQI32O1tf0USZwsz8/uxPSR/hgbesuB7A5PHU/yWkhWQNVr4OriNWO/ImE3NiSzAPCt1UaUFE51+eHQmZPQg==",
+      "path": "nlog/4.7.8",
+      "hashPath": "nlog.4.7.8.nupkg.sha512"
+    },
+    "NLog.Config/4.7.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-87JTvjvxcRKtC/WR29o3WNU9F+B4OFuc+KwyhmI6GffKxF258UBECjTJnrT9isWIgHFSl/d0VNIwYLshi96Dww==",
+      "path": "nlog.config/4.7.8",
+      "hashPath": "nlog.config.4.7.8.nupkg.sha512"
+    },
+    "NLog.Schema/4.7.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/rTsZLwJQxVt5v1tS6suhn4EhYGobTILEv26yx+VXJYoyEDSduGznaJqYpwPw06Jg1chkdyx6qM+CLg0t4J/Kw==",
+      "path": "nlog.schema/4.7.8",
+      "hashPath": "nlog.schema.4.7.8.nupkg.sha512"
     },
     "NuGet.Frameworks/4.7.0": {
       "type": "package",

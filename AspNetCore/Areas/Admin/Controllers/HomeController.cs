@@ -132,10 +132,10 @@ namespace AspNetCore.Areas.Admin.Controllers
         {
             int productId = (int)TempData["ProductId"];
             foreach (var item in addCategoryModel)
-            {
+            { 
                 if (item.IsAllow)
                 {
-                    _productRepository.AddCategory(new ProductCategory
+                    _productRepository.AddCategory (new ProductCategory
                     {
                         CategoryId=item.CategoryId,
                         ProductId=productId

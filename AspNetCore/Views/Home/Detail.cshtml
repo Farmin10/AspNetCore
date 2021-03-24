@@ -17,7 +17,7 @@
                     <h5 class="card-title">@Model.Name</h5>
                     <strong>Category:</strong><getCategoryName product-id="@Model.Id"></getCategoryName>
                     <p class="card-text">@Model.Price</p>
-                    <a href="#" class="btn btn-primary float-right ml-1">Add Cart</a>
+                    <a asp-action="AddToCart" asp-controller="Home" asp-route-id="@Model.Id" class="btn btn-primary float-right ml-1">Add Cart</a>
                     <a asp-controller="Home" asp-action="Index" class="btn btn-danger float-right">Back</a>
                 </div>
             </div>

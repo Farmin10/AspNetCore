@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TcbtVHAuht9d/VwDqdUbWURyVHK8yd949iY/UBQE3BcO7p0efTTVRtQiUfEh9n1FC9umgg0oU+g2NzxEbuZwKw==",
+  "dgSpecHash": "1bHQY/chjO/8Mi0ELqIJcLkT9cKEce3DdrfhkSGUq3/JTns3Cb1+0SxK1kaJ4rvaaTbi9YV3/lJflBSCvOXIFA==",
   "success": true,
   "projectFilePath": "C:\\Users\\farmi\\source\\repos\\AspNetCore\\AspNetCore\\AspNetCore.csproj",
   "expectedPackageFiles": [
@@ -80,6 +80,9 @@
     "C:\\Users\\farmi\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\farmi\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\farmi\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\farmi\\.nuget\\packages\\nlog\\4.7.8\\nlog.4.7.8.nupkg.sha512",
+    "C:\\Users\\farmi\\.nuget\\packages\\nlog.config\\4.7.8\\nlog.config.4.7.8.nupkg.sha512",
+    "C:\\Users\\farmi\\.nuget\\packages\\nlog.schema\\4.7.8\\nlog.schema.4.7.8.nupkg.sha512",
     "C:\\Users\\farmi\\.nuget\\packages\\nuget.frameworks\\4.7.0\\nuget.frameworks.4.7.0.nupkg.sha512",
     "C:\\Users\\farmi\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\farmi\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

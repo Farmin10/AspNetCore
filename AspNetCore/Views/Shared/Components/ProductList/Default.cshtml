@@ -2,17 +2,28 @@
 
 
 <div class="row">
-    @foreach (var item in Model)
+
+    @if (Model.Count > 0)
     {
-        <div class="col-md-3">
-            <div class="card mr-1 mb-1">
-                <img src="/img/@item.Picture" class="card-img-top" alt="No Picture">
-                <div class="card-body">
-                    <h5 class="card-title">@item.Name</h5>
-                    <p class="card-text">@item.Price</p>
-                    <a asp-controller="Home" asp-action="Detail" asp-route-id="@item.Id" class="btn btn-primary float-right">Description</a>
+        @foreach (var item in Model)
+        {
+            <div class="col-md-3">
+                <div class="card mr-1 mb-1">
+                    <img src="/img/@item.Picture" class="card-img-top" alt="No Picture">
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Name</h5>
+                        <p class="card-text">@item.Price</p>
+                        <a asp-controller="Home" asp-action="Detail" asp-route-id="@item.Id" class="btn btn-primary float-right">Description</a>
+                    </div>
                 </div>
             </div>
-        </div>
+        }
     }
+    else
+    {
+        <div class="alert alert-info text-center">There is No any Product</div>
+    }
+
+
+
 </div>

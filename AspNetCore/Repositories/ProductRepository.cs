@@ -33,7 +33,7 @@ namespace AspNetCore.Repositories
             var control= _productCategoryRepository.GetByFilter(i => i.CategoryId == productCategory.CategoryId && i.ProductId == productCategory.ProductId);
             if (control!=null)
             {
-                _productCategoryRepository.Delete(productCategory);
+                _productCategoryRepository.Delete(control);
             }
         }
 

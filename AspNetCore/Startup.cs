@@ -21,6 +21,8 @@ namespace AspNetCore
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+
+            services.AddHttpContextAccessor();
             services.AddDbContext<AspContext>();
             services.AddAuthentication();
 
@@ -40,6 +42,8 @@ namespace AspNetCore
                 opt.Cookie.SameSite = SameSiteMode.Strict;
                 opt.ExpireTimeSpan = TimeSpan.FromMinutes(30);
             });
+
+            services.AddScoped<ICartRepository, CartRepository>();
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<IProductCategoryRepository, ProductCategoryRepository>();
@@ -50,12 +54,16 @@ namespace AspNetCore
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env,UserManager<AppUser> userManager,RoleManager<IdentityRole> roleManager)
         {
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
+            //if (env.IsDevelopment())
+            //{
+            //    app.UseDeveloperExceptionPage();
+            //}
 
-            IdentityInitializer.SetAdmin(userManager,roleManager);
+            app.UseStatusCodePagesWithReExecute("/Home/NotFound","?code={0}");
+
+            app.UseExceptionHandler("/Error");
+
+            //IdentityInitializer.SetAdmin(userManager,roleManager);
 
             app.UseRouting();
 

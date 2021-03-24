@@ -151,8 +151,6 @@ C:\Users\farmi\source\repos\AspNetCore\AspNetCore\bin\Debug\netcoreapp3.1\Micros
 C:\Users\farmi\source\repos\AspNetCore\AspNetCore\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\farmi\source\repos\AspNetCore\AspNetCore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
 C:\Users\farmi\source\repos\AspNetCore\AspNetCore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
-C:\Users\farmi\source\repos\AspNetCore\AspNetCore\obj\Debug\netcoreapp3.1\AspNetCore.csproj.CoreCompileInputs.cache
-C:\Users\farmi\source\repos\AspNetCore\AspNetCore\obj\Debug\netcoreapp3.1\AspNetCore.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\farmi\source\repos\AspNetCore\AspNetCore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Home\Index.cshtml.g.cs
 C:\Users\farmi\source\repos\AspNetCore\AspNetCore\obj\Debug\netcoreapp3.1\Razor\Views\Home\Login.cshtml.g.cs
 C:\Users\farmi\source\repos\AspNetCore\AspNetCore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Shared\_Layout.cshtml.g.cs
@@ -164,3 +162,11 @@ C:\Users\farmi\source\repos\AspNetCore\AspNetCore\obj\Debug\netcoreapp3.1\Razor\
 C:\Users\farmi\source\repos\AspNetCore\AspNetCore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Category\Create.cshtml.g.cs
 C:\Users\farmi\source\repos\AspNetCore\AspNetCore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Category\Update.cshtml.g.cs
 C:\Users\farmi\source\repos\AspNetCore\AspNetCore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Home\AddCategory.cshtml.g.cs
+C:\Users\farmi\source\repos\AspNetCore\AspNetCore\obj\Debug\netcoreapp3.1\Razor\Views\Home\Cart.cshtml.g.cs
+C:\Users\farmi\source\repos\AspNetCore\AspNetCore\obj\Debug\netcoreapp3.1\Razor\Views\Home\Thanks.cshtml.g.cs
+C:\Users\farmi\source\repos\AspNetCore\AspNetCore\obj\Debug\netcoreapp3.1\Razor\Views\Home\NotFound.cshtml.g.cs
+C:\Users\farmi\source\repos\AspNetCore\AspNetCore\obj\Debug\netcoreapp3.1\Razor\Views\Home\Error.cshtml.g.cs
+C:\Users\farmi\source\repos\AspNetCore\AspNetCore\bin\Debug\netcoreapp3.1\NLog.dll
+C:\Users\farmi\source\repos\AspNetCore\AspNetCore\bin\Debug\netcoreapp3.1\NLog.config
+C:\Users\farmi\source\repos\AspNetCore\AspNetCore\obj\Debug\netcoreapp3.1\AspNetCore.csproj.CoreCompileInputs.cache
+C:\Users\farmi\source\repos\AspNetCore\AspNetCore\obj\Debug\netcoreapp3.1\AspNetCore.MvcApplicationPartsAssemblyInfo.cache
