@@ -12,7 +12,7 @@ namespace AspNetCore.Contexts
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=Desktop-psjtqan;database=Ap;integrated Security=true");
+            optionsBuilder.UseSqlServer("Server=Desktop-psjtqan;database=Asp;integrated Security=true");
             base.OnConfiguring(optionsBuilder);
         }
 
